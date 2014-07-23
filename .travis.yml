@@ -5,7 +5,7 @@ deploy:
   provider: npm
   email: gerardo+npm@gaderas.com
   api_key:
-    secure: MgA+wX5GK0g6Wrac+fC7yBdKKge1FN342lkqtFcrUOX4iHwbaVvUysmvs55mntssiiWcmkUxxgLEfMtr8EqLnBOClMRumXp+z4vGm92gLIadcNxwt5Q3d5lbSoJr/cGgSwMbrX+0SxdeJLBYflaJjvW/hU1ggEe4a11VshFnBXQ=
+    secure: dmR+zGBL+llWInxaUPAwv+dqQKX26OOwswhhSC7Gt/z0M5WcRIcANkLniMDd5MI4CnyQWjJe2cAjISEDKNVRvdzkYgG/mER85FNot1VjtYOzTLchK3O724IjkoqX9+4tu83xZhhxNgkKwN2uZRP/4pKo3lI5/WJEIbYt2G5ZMcs=
   on:
     tags: true
     repo: sanx/dendro
