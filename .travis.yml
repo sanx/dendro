@@ -1,4 +1,11 @@
 language: node_js
 node_js:
-  - "0.10"
-
+- '0.10'
+deploy:
+  provider: npm
+  email: gerardo+npm@gaderas.com
+  api_key:
+    secure: MgA+wX5GK0g6Wrac+fC7yBdKKge1FN342lkqtFcrUOX4iHwbaVvUysmvs55mntssiiWcmkUxxgLEfMtr8EqLnBOClMRumXp+z4vGm92gLIadcNxwt5Q3d5lbSoJr/cGgSwMbrX+0SxdeJLBYflaJjvW/hU1ggEe4a11VshFnBXQ=
+  on:
+    tags: true
+    repo: sanx/dendro
