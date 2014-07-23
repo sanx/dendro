@@ -39,7 +39,7 @@ describe("Tree data structure", function () {
         tree.branches[0].branches.length.should.equal(1);
         tree.branches[0].branches[0].value.should.equal("deep leaf");
     });
-    it.only("finding single leaf in 3 node height=3 tree should work", function () {
+    it("finding single leaf in 3 node height=3 tree should work", function () {
         var tree = new Tree("root");
         var branch1 = tree.addBranch(new Tree("branch 1"));
         var deepLeaf = branch1.addBranch(new Tree("deep leaf"));
