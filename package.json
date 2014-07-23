@@ -1,0 +1,38 @@
+{
+  "name": "dendro",
+  "version": "0.0.1",
+  "description": "Tree data structure for Node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanx/dendro"
+  },
+  "keywords": [
+    "tree",
+    "data",
+    "data",
+    "structure",
+    "nodes",
+    "branches",
+    "leaves",
+    "leaf"
+  ],
+  "author": "germoad@yahoo.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanx/dendro/issues"
+  },
+  "homepage": "https://github.com/sanx/dendro"
+}
