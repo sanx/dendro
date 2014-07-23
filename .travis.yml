@@ -9,5 +9,5 @@ deploy:
   on:
     tags: true
     repo: sanx/dendro
-    branch: master
+    all_branches: true
 
